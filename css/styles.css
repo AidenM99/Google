@@ -1,0 +1,47 @@
+body {
+    font-family: arial, sans-serif;
+    line-height:1.6;
+    font-size: 0.875rem;  
+    margin: 0;
+}
+
+/***nav***/
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:1px;
+}   
+
+.left-nav {
+    vertical-align: middle;
+    margin-left:-22px;  
+}
+
+.right-nav {
+    font-size:0.8125rem;
+}
+
+.nav-link {
+    margin: 0 8px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right:10px;
+}
+
+.icon {
+    vertical-align: middle;
+}
