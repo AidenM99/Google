@@ -13,7 +13,10 @@ li {
 
 a {
     text-decoration: none;
-    color:black;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .nav {
@@ -34,6 +37,7 @@ a {
 
 .nav-link {
     margin: 0 8px;
+    color:hotpink;
 }
 
 .profile-picture {
@@ -46,13 +50,17 @@ a {
     vertical-align: middle;
 }
 
+.top-links {
+    color:black;
+}
+
 /***main***/
 
 .main-container {
     display:flex;
     flex-direction: column;
     align-items: center;
-    margin-top:180px;
+    margin-top:200px;
 }
 
 .search-container {
@@ -96,6 +104,13 @@ a {
     border:none;
     background-color: #f8f9fa;
     cursor:pointer;
+    border-radius:4px;
+    color:#3c4043;
+    font-size:14px;
+}
+
+.button:hover {
+    box-shadow:0 0 2px grey;
 }
 
 /***footer***/
@@ -115,11 +130,17 @@ a {
 .right-footer {
     margin-right:6px;
     margin-top:18px;
+    color:#70757a;
 }
 
 .left-footer {
     margin-top:18px;
     margin-left:-22px; 
+    color:#70757a;
+}
+
+.bottom-links {
+    color:#70757a;
 }
 
 /***media query***/
