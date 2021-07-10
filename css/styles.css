@@ -37,7 +37,6 @@ a:hover {
 
 .nav-link {
     margin: 0 8px;
-    color:hotpink;
 }
 
 .profile-picture {
@@ -83,6 +82,7 @@ a:hover {
     flex:0.96;
     height:35px;
     border:none;
+    font-size: 0.875rem;  
 }
 
 .search-container:hover {
