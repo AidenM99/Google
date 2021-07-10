@@ -92,6 +92,7 @@ a:hover {
 
 .search-bar:focus {
     outline:none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .buttons {
